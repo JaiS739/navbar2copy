@@ -1,5 +1,26 @@
 .App {
-  text-align: center;
+  text-align: center;  
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar{
+  color: white;
+}
+
+.App>div>a{
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.App>div>button{
+  background-color: teal;
+  padding: 5px 20px;
+  border-radius: 15px 15px;
+  color: white;
 }
 
 .App-logo {
